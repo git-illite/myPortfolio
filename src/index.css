@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.source-link {
+    margin-left: 0; /* Adjust the margin as needed */
+}
