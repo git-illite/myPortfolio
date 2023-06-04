@@ -42,7 +42,8 @@ const Projects = () => {
                     </div>
                   </div>                
                 <a
-                href={project.sourceCodeLink} // Add the source code link here
+                href={project.sourceCodeLink}
+                target="_blank"
                 className="text-green-400 source-link"
               >
                 Source Code</a></a>
