@@ -72,8 +72,7 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+          Wow, I'm thrilled at the prospect of joining your team! My skills and experience perfectly align with the position, and I'm genuinely excited about the opportunity. Kindly share your contact information and any details regarding the hiring process. I can't wait to engage in a conversation about how I can make a significant impact and contribute to your organization's success!
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
