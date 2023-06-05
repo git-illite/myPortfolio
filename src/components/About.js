@@ -11,7 +11,7 @@ const About = () => {
                 apps.
               </h1>
               <p className="mb-8 leading-relaxed">
-              I am recent graduate of Seneca College's Computer Programming and Analysis program. I am a skilled programmer with
+              I am a recent graduate of Seneca College's Computer Programming and Analysis program. I am a skilled programmer with
                a strong understanding of software development principles and practices. I am proficient in various programming 
                languages and experienced in problem-solving and analytical thinking.
               </p>
