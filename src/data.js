@@ -53,6 +53,15 @@ export const projects = [
     link: "https://git-illite.github.io/FinalAssignment/",
     sourceCodeLink:"https://github.com/git-illite/FinalAssignment"
   },
+  {
+    title: "Electron & Javascript",
+    subtitle: "Dom Manipulation HTML/CSS",
+    description:
+      "A desktop application using Electron.js which allows us to build desktop apps using only JavaScript. We will build a minimal shopping list app with a custom menu and multiple windows and implement Materialize CSS for styling. I also published the app to a Windows .exe file using the Electron Packager.",
+    image: "./project-7.gif",
+    link: "https://github.com/git-illite/ShoppingListApp#readme",
+    sourceCodeLink:"https://github.com/git-illite/ShoppingListApp"
+  },
 ];
 
 export const testimonials = [
