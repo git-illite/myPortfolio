@@ -55,12 +55,21 @@ export const projects = [
   },
   {
     title: "Electron & Javascript",
-    subtitle: "Dom Manipulation HTML/CSS",
+    subtitle: "JavaScript HTML/CSS",
     description:
       "A desktop application using Electron.js which allows us to build desktop apps using only JavaScript. We will build a minimal shopping list app with a custom menu and multiple windows and implement Materialize CSS for styling. I also published the app to a Windows .exe file using the Electron Packager.",
     image: "./project-7.gif",
     link: "https://github.com/git-illite/ShoppingListApp#readme",
     sourceCodeLink:"https://github.com/git-illite/ShoppingListApp"
+  },
+  {
+    title: "Aden Career site",
+    subtitle: "Vue Vuex Typescript Jest",
+    description:
+      "The 'Aden Career Site' project mimics Google's career site while showcasing my Vue.js and TypeScript skills. It involves migrating the JavaScript codebase to TypeScript, using Vuex for state management, and the Composition API for efficient component logic. Demonstrating my expertise in building powerful and scalable front-end projects.",
+    image: "./project-8.gif",
+    link: "https://github.com/git-illite/JobSearch#readme",
+    sourceCodeLink:"https://github.com/git-illite/JobSearch"
   },
 ];
 
@@ -96,5 +105,8 @@ export const skills = [
   "AWS, Cognito, ECR, ECS, S3, DynamoDB",
   "Docker",
   "Unreal Blueprints",
-  "GitHub, GitHub Actions"
+  "GitHub, GitHub Actions",
+  "Vue, Vuex",
+  "Typescript",
+  "Jest,Hurl"
 ];
