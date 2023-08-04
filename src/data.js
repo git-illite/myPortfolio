@@ -71,6 +71,15 @@ export const projects = [
     link: "https://github.com/git-illite/JobSearch#readme",
     sourceCodeLink:"https://github.com/git-illite/JobSearch"
   },
+   {
+    title: "Loop Studios",
+    subtitle: "HTML Tailwind JavaScript",
+    description:
+      "This site uses the Tailwind CSS framework, ensuring responsiveness and appealing visuals. The repository includes the necessary code, files, and assets used to build the website. The project is hosted on Vercel, making it accessible to anyone who wants to explore the code and see the live version of the website.",
+    image: "./project-9.png",
+    link: "https://loopstudios-lemon.vercel.app/",
+    sourceCodeLink:"https://github.com/git-illite/TailwindWebsiteProjects/tree/main/LoopStudios"
+  },
 ];
 
 export const testimonials = [
