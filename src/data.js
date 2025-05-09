@@ -1,7 +1,7 @@
 import {
   SiJavascript, SiReact, SiAngular, SiMongodb, SiCplusplus, SiC,
-  SiCsharp, SiDotnet, SiJava, SiMicrosoftazure, SiAmazonwebservices , SiDocker,
-  SiGithub, SiGithubactions, SiVuedotjs, SiVuex, SiTypescript, SiJest,
+  SiDotnet, SiAmazonwebservices , SiDocker,
+  SiGithub, SiGithubactions, SiVuedotjs, SiTypescript, SiJest,
   SiRedux, SiExpress, SiNetlify, SiPaypal,
   SiAmazon
 } from "react-icons/si";
@@ -123,7 +123,7 @@ export const skills = [
   { icon: SiDotnet, name: "ASP.net" },
   { icon: FaJava, name: "Java" },
   { icon: FaMicrosoft, name: "Azure" },
-  { icon: SiAmazonwebservices, name: "AWS, Cognito, ECS, etc." },
+  { icon: SiAmazon, name: "AWS, Cognito, ECS, etc." },
   { icon: SiDocker, name: "Docker" },
   { icon: FaCloud, name: "Unreal Blueprints" },
   { icon: SiGithub, name: "GitHub" },
