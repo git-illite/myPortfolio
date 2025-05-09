@@ -6,7 +6,7 @@ import {
   SiAmazon
 } from "react-icons/si";
 
-import { FaDatabase, FaCloud, FaLock,FaMicrosoft,FaJava, FaVuejs } from "react-icons/fa";
+import { FaDatabase, FaCloud, FaLock,FaMicrosoft,FaJava, FaVuejs, FaAws } from "react-icons/fa";
 import { TbBrandCSharp } from "react-icons/tb";
 
 
@@ -123,7 +123,7 @@ export const skills = [
   { icon: SiDotnet, name: "ASP.net" },
   { icon: FaJava, name: "Java" },
   { icon: FaMicrosoft, name: "Azure" },
-  { icon: SiAmazon, name: "AWS, Cognito, ECS, etc." },
+  { icon: FaAws, name: "AWS, Cognito, ECS, etc." },
   { icon: SiDocker, name: "Docker" },
   { icon: FaCloud, name: "Unreal Blueprints" },
   { icon: SiGithub, name: "GitHub" },
