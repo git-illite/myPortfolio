@@ -2,6 +2,15 @@
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
+import {
+  SiJavascript, SiReact, SiAngular, SiMongodb, SiCplusplus, SiC,
+  SiCsharp, SiDotnet, SiJava, SiMicrosoftazure, SiAmazonaws, SiDocker,
+  SiGithub, SiGithubactions, SiVuedotjs, SiVuex, SiTypescript, SiJest,
+  SiRedux, SiExpress, SiNetlify, SiPaypal
+} from "react-icons/si";
+
+import { FaDatabase, FaCloud, FaLock } from "react-icons/fa"; // generic icons
+
 
 export default function Skills() {
   return (
@@ -18,11 +27,11 @@ export default function Skills() {
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
+            <div key={skill.name} className="p-2 sm:w-1/2 w-full">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
-                <span className="title-font font-medium text-white">
-                  {skill}
+                <skill.icon className="text-white w-6 h-6 flex-shrink-0 mr-4" />
+                  <span className="title-font font-medium text-white">
+                   {skill.name}
                 </span>
               </div>
             </div>

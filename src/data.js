@@ -100,28 +100,32 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
-  "React",
-  "Angular",
-  "MongoDB/Mongoose",
-  "SQL",
-  "C++",
-  "C",
-  "C#",
-  "ASP.net",
-  "Java",
-  "Azure",
-  "AWS, Cognito, ECR, ECS, S3, DynamoDB",
-  "Docker",
-  "Unreal Blueprints",
-  "GitHub, GitHub Actions",
-  "Vue, Vuex",
-  "Typescript",
-  "Jest,Hurl","Redux Toolkit",
-  "Express.js",
-  "REST API Development",
-  "Netlify",
-  "Render",
-  "JWT Authentication",
-  "PayPal Integration"
+  { icon: <SiJavascript />, name: "JavaScript" },
+  { icon: <SiReact />, name: "React" },
+  { icon: <SiAngular />, name: "Angular" },
+  { icon: <SiMongodb />, name: "MongoDB/Mongoose" },
+  { icon: <FaDatabase />, name: "SQL" },
+  { icon: <SiCplusplus />, name: "C++" },
+  { icon: <SiC />, name: "C" },
+  { icon: <SiCsharp />, name: "C#" },
+  { icon: <SiDotnet />, name: "ASP.net" },
+  { icon: <SiJava />, name: "Java" },
+  { icon: <SiMicrosoftazure />, name: "Azure" },
+  { icon: <SiAmazonaws />, name: "AWS, Cognito, ECS, etc." },
+  { icon: <SiDocker />, name: "Docker" },
+  { icon: <FaCloud />, name: "Unreal Blueprints" }, // placeholder
+  { icon: <SiGithub />, name: "GitHub" },
+  { icon: <SiGithubactions />, name: "GitHub Actions" },
+  { icon: <SiVuedotjs />, name: "Vue" },
+  { icon: <SiVuex />, name: "Vuex" },
+  { icon: <SiTypescript />, name: "TypeScript" },
+  { icon: <SiJest />, name: "Jest" },
+  { icon: <FaCloud />, name: "Hurl" }, // placeholder
+  { icon: <SiRedux />, name: "Redux Toolkit" },
+  { icon: <SiExpress />, name: "Express.js" },
+  { icon: <FaCloud />, name: "REST API Development" }, // placeholder
+  { icon: <SiNetlify />, name: "Netlify" },
+  { icon: <FaCloud />, name: "Render" }, // placeholder
+  { icon: <FaLock />, name: "JWT Authentication" },
+  { icon: <SiPaypal />, name: "PayPal Integration" }
 ];
