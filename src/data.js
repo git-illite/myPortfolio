@@ -1,11 +1,14 @@
 import {
   SiJavascript, SiReact, SiAngular, SiMongodb, SiCplusplus, SiC,
-  SiCsharp, SiDotnet, SiJava, SiMicrosoftazure, SiAmazonaws, SiDocker,
+  SiCsharp, SiDotnet, SiJava, SiMicrosoftazure, SiAmazonwebservices , SiDocker,
   SiGithub, SiGithubactions, SiVuedotjs, SiVuex, SiTypescript, SiJest,
-  SiRedux, SiExpress, SiNetlify, SiPaypal
+  SiRedux, SiExpress, SiNetlify, SiPaypal,
+  SiAmazon
 } from "react-icons/si";
 
-import { FaDatabase, FaCloud, FaLock } from "react-icons/fa"; // generic icons
+import { FaDatabase, FaCloud, FaLock,FaMicrosoft,FaJava, FaVuejs } from "react-icons/fa";
+import { TbBrandCSharp } from "react-icons/tb";
+
 
 export const projects = [
   {
@@ -116,17 +119,17 @@ export const skills = [
   { icon: FaDatabase, name: "SQL" },
   { icon: SiCplusplus, name: "C++" },
   { icon: SiC, name: "C" },
-  { icon: SiCsharp, name: "C#" },
+  { icon: TbBrandCSharp, name: "C#" },
   { icon: SiDotnet, name: "ASP.net" },
-  { icon: SiJava, name: "Java" },
-  { icon: SiMicrosoftazure, name: "Azure" },
-  { icon: SiAmazonaws, name: "AWS, Cognito, ECS, etc." },
+  { icon: FaJava, name: "Java" },
+  { icon: FaMicrosoft, name: "Azure" },
+  { icon: SiAmazonwebservices, name: "AWS, Cognito, ECS, etc." },
   { icon: SiDocker, name: "Docker" },
   { icon: FaCloud, name: "Unreal Blueprints" },
   { icon: SiGithub, name: "GitHub" },
   { icon: SiGithubactions, name: "GitHub Actions" },
   { icon: SiVuedotjs, name: "Vue" },
-  { icon: SiVuex, name: "Vuex" },
+  { icon: FaVuejs, name: "Vuex" },
   { icon: SiTypescript, name: "TypeScript" },
   { icon: SiJest, name: "Jest" },
   { icon: FaCloud, name: "Hurl" },
