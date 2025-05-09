@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 //import Testimonials from "./components/Testimonials";
+import Moskills from "./components/Moskills";
 
 export default function App() {
   return (
@@ -12,8 +13,9 @@ export default function App() {
       <Navbar />
       <About />
       <Projects />
-      <Skills />
+      {/* <Skills /> */}
       {/* <Testimonials /> */}
+      <Moskills/>
       <Contact />
     </main>
   );
