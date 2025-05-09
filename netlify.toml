@@ -7,8 +7,5 @@
   status = 200
 
 [build.environment]
-<<<<<<< HEAD
   NODE_VERSION = "18"
-=======
-  NODE_VERSION = "18"
->>>>>>> 2be61c5699d030d0dbd5d9b6cbdae67f77451c1c
+
