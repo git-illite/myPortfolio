@@ -37,16 +37,15 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2883.8116276368005!2d-79.27121919030472!3d43.71446363320375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4ce662f71fd81%3A0xae5931a7fcf592d5!2sBirchmount%20Rd%20%26%20St%20Clair%20Ave%20E%2C%20Toronto%2C%20ON!5e0!3m2!1sen!2sca!4v1685860788313!5m2!1sen!2sca"
-          />
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11587.171527253174!2d-79.3832!3d43.6532!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d64d28f2f5%3A0x9523e0d0a8e265d3!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1685860788313!5m2!1sen!2sca"          />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
               <p className="mt-1">
-                3485 St.Clair Ave. E. <br />
-                Toronto, Ont M1K1L3
+                <br />
+                Toronto, Ont
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">

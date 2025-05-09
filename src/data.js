@@ -117,5 +117,11 @@ export const skills = [
   "GitHub, GitHub Actions",
   "Vue, Vuex",
   "Typescript",
-  "Jest,Hurl"
+  "Jest,Hurl","Redux Toolkit",
+  "Express.js",
+  "REST API Development",
+  "Netlify",
+  "Render",
+  "JWT Authentication",
+  "PayPal Integration"
 ];
