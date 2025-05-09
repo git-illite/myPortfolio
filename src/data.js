@@ -3,11 +3,13 @@ import {
   SiDotnet, SiAmazonwebservices , SiDocker,
   SiGithub, SiGithubactions, SiVuedotjs, SiTypescript, SiJest,
   SiRedux, SiExpress, SiNetlify, SiPaypal,
-  SiAmazon
+  SiAmazon,
+  SiUnrealengine,
+  SiRender
 } from "react-icons/si";
 
 import { FaDatabase, FaCloud, FaLock,FaMicrosoft,FaJava, FaVuejs, FaAws } from "react-icons/fa";
-import { TbBrandCSharp } from "react-icons/tb";
+import { TbApi, TbBrandCSharp } from "react-icons/tb";
 
 
 export const projects = [
@@ -125,7 +127,7 @@ export const skills = [
   { icon: FaMicrosoft, name: "Azure" },
   { icon: FaAws, name: "AWS, Cognito, ECS, etc." },
   { icon: SiDocker, name: "Docker" },
-  { icon: FaCloud, name: "Unreal Blueprints" },
+  { icon: SiUnrealengine, name: "Unreal Blueprints" },
   { icon: SiGithub, name: "GitHub" },
   { icon: SiGithubactions, name: "GitHub Actions" },
   { icon: SiVuedotjs, name: "Vue" },
@@ -135,9 +137,9 @@ export const skills = [
   { icon: FaCloud, name: "Hurl" },
   { icon: SiRedux, name: "Redux Toolkit" },
   { icon: SiExpress, name: "Express.js" },
-  { icon: FaCloud, name: "REST API Development" },
+  { icon: TbApi, name: "REST API Development" },
   { icon: SiNetlify, name: "Netlify" },
-  { icon: FaCloud, name: "Render" },
+  { icon: SiRender, name: "Render" },
   { icon: FaLock, name: "JWT Authentication" },
   { icon: SiPaypal, name: "PayPal Integration" }
 ];
