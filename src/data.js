@@ -1,3 +1,12 @@
+import {
+  SiJavascript, SiReact, SiAngular, SiMongodb, SiCplusplus, SiC,
+  SiCsharp, SiDotnet, SiJava, SiMicrosoftazure, SiAmazonaws, SiDocker,
+  SiGithub, SiGithubactions, SiVuedotjs, SiVuex, SiTypescript, SiJest,
+  SiRedux, SiExpress, SiNetlify, SiPaypal
+} from "react-icons/si";
+
+import { FaDatabase, FaCloud, FaLock } from "react-icons/fa"; // generic icons
+
 export const projects = [
   {
     title: "ProShop eCommerce App",
