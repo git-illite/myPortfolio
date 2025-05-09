@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "ProShop eCommerce App",
+    subtitle: "MERN Stack + Redux",
+    description:
+      "Built a full-stack eCommerce app with user auth, Redux state management, cart, checkout, and admin product controls. Includes an admin dashboard, order tracking, and PayPal integration, deployed via Render and Netlify.",
+    image: "./project-3.gif",
+    link: "https://adenproshop.netlify.app/",
+    sourceCodeLink:"https://github.com/git-illite/proShop"
+  },
+  {
     title: "React CitiBike Trips",
     subtitle: "MERN Stack",
     description:
@@ -7,7 +16,7 @@ export const projects = [
     image: "./project-1.gif",
     link: "https://elaborate-peony-6b2d1c.netlify.app/",
     sourceCodeLink:"https://github.com/git-illite/reactTrips"
-  },
+  }, 
   {
     title: "Spotify API",
     subtitle: "MEAN Stack",
@@ -16,15 +25,6 @@ export const projects = [
     image: "./project-2.gif",
     link: "https://stellar-pudding-3ef9f8.netlify.app/",
     sourceCodeLink:"https://github.com/git-illite/SpotifyAngularAAden"
-  },
-  {
-    title: "Music Biz",
-    subtitle: "C# ASP.net",
-    description:
-      "This app was built to serve the needs of companies in the music business. It will enable a record label to manage their artists, albums, and tracks. There are three roles supported; Executive, Coordinator, and Clerk. The app also supports richer data such as rich text and media files (images,audio files, and videos).",
-    image: "./project-3.gif",
-    link: "https://aaaden1-wa-web524-a6.azurewebsites.net/",
-    sourceCodeLink:"https://github.com/git-illite/MusicBizASPApp"
   },
   {
     title: "Fragments App",
