@@ -13,7 +13,7 @@ const Projects = () => {
                 Apps I've Built
               </h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Explore the apps I've built as a passionate and dedicated fresh graduate.
+              Here are a few of my favorite projects that showcase my skills and passion for building powerful, scalable applications.
               </p>
             </div>
             <div className="flex flex-wrap -m-4">
